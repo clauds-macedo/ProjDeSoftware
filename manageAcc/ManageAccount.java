@@ -22,10 +22,12 @@ public class ManageAccount {
 		System.out.println(USER_ACCOUNTS);
 	}
 	
-	public static void EditAccountInfo(String account_id, String age, String petName, String musicalStyle) {
+	public static void EditAccountInfo(String account_id, String petName, String musicalStyle) {
 		
-		String[] accountInfo = {account_id, age, petName, musicalStyle};
+		String[] accountInfo = {account_id, petName, musicalStyle};
 		USER_ACCOUNTS_INFO.add(Arrays.asList(accountInfo));
+		
+		System.out.println(USER_ACCOUNTS_INFO);
 		
 	}
 	

@@ -34,6 +34,11 @@ public class JavaP2 {
     		}
     		
     		else if (OPTION == 2) {
+    			System.out.println("Digite o seu nome de usuário, nome de seu pet e seu estilo de música favorito para atribuir ao seu perfil\nCaso o usuário já exista, será editada:");
+    			String account_id = readLine.next(), petName = readLine.next(), musicalStyle = readLine.next();
+    			
+    			
+    			ManageAccount.EditAccountInfo(account_id, petName, musicalStyle);
     			
     		}
     		
